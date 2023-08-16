@@ -1,0 +1,222 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar {
+  position: absolute;
+  background-color: rgb(233, 227, 227);
+  /* width: 434px; */
+  font-family: "Courier New", Courier, monospace;
+  height: 100vh;
+  transition: transform 0.3s ease-in;
+}
+
+.sidebar nav {
+  padding: 45px;
+}
+
+.sidebar nav li {
+  list-style: none;
+  font-size: 30px;
+  padding: 33px 0;
+}
+
+.sidebar nav li a {
+  text-decoration: none;
+  color: black;
+}
+
+.main {
+  /* background-color: yellow; */
+  width: 90vw;
+}
+
+.container {
+  display: flex;
+}
+
+.infoContainer {
+  background-color: rgb(115, 40, 185);
+  height: 58vh;
+  width: 80vw;
+  margin: 144px auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.devInfo {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 16px;
+}
+.hello {
+  font-size: 3em;
+}
+.name {
+  font-size: 3em;
+  font-weight: bold;
+}
+.about {
+  font-size: 2.5em;
+}
+.moreabout {
+  font-size: 2.2em;
+  margin-top: 23px;
+}
+.buttons {
+  margin-top: 2.2em;
+  font-size: 16px;
+}
+.btn {
+  padding: 9px 80px;
+  border-radius: 22px;
+  color: white;
+  background-color: dodgerblue;
+  font-weight: bold;
+  font-size: 2.2em;
+  margin: 3px 3px;
+  cursor: pointer;
+}
+.btn-sm {
+  font-size: 17px;
+  padding: 10px 19px;
+  margin: 23px;
+}
+.btn:hover {
+  color: dodgerblue;
+  background-color: white;
+}
+.devPic img {
+  height: 57vh;
+  border-radius: 500px;
+  box-shadow: 10px 0px 11px 0px;
+}
+.contactfrom {
+  padding: 0 34px;
+  /* padding-top: 144px; */
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin: 88px;
+}
+.contactfrom h1 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-align: center;
+  /* padding: 12px 0; */
+}
+.contactfrom form div {
+  padding: 10px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.contactfrom form div input {
+  /* width: 26vw; */
+  border-radius: 5px;
+  margin: 6px 0;
+  padding: 3px;
+}
+
+.contactfrom form {
+ margin: 0 40px;
+}
+
+/*blog style*/
+.blogItem {
+  margin: 20px;
+}
+.blogContainer{
+margin: 10px 88px;
+}
+h1 {
+  margin: 23px;
+}
+.intro{
+  margin: 10px 88px;
+}
+.intro h2 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin: 12px;
+}
+.intro p {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin: 12px;
+}
+.skillContainer {
+  padding: 12px;
+}
+.skillItem {
+  font-size: 44px;
+  margin: 22px;
+  display: flex;
+  align-items: center;
+  font-weight: 900px;
+}
+.skill {
+  width: 405px;
+  height: 15px;
+  background-color: red;
+  border: 2px solid black;
+}
+
+.hundered {
+  width: 265px;
+}
+.fifty {
+  width: 125px;
+}
+.t5 {
+  width: 305px;
+}
+
+/*Services page*/
+.main h2 {
+  font-size: 74px;
+  text-align: center;
+}
+.main h3 {
+  font-size: 56px;
+  margin: 12px;
+}
+.main p {
+  font-size: 32px;
+  margin: 20px;
+}
+.services {
+  background-color: rgb(173, 173, 146);
+}
+.sidebarGo{
+  transform: translate(-443px, 0px);
+  position: absolute;
+}
+
+.hamburger{
+  position: absolute;
+  cursor: pointer;
+  top: 10px;
+  left: 10px;
+}
+.ham{
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.cross{
+  margin-left: 205px;
+  margin-top: 10px;
+}
+
+/*media quaries*/
+@media (max-width: 1615px) {
+  .buttons{
+    font-size: 6px;
+  }
+  .devInfo{
+    font-size: 10px;
+  }
+  .devPic{
+    display: none;
+  }
+  .intro, .blogContainer, .contactfrom{
+    margin:50px 8px;
+  }
+}
